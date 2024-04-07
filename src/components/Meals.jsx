@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import MealItem from "./MealItem";
 const Meals = () => {
   const [loadedMeals, setLoadedMeals] = useState([]);
-
   useEffect(() => {
     async function fetchMeals() {
       try {
